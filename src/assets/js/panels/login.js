@@ -118,7 +118,7 @@ class Login {
             document.querySelector(".login-card-mojang").style.display = "none";
         })
 
-        loginBtn.addEventListener("click", async () => {
+        loginBtn.addEventListener("click", async() => {
             cancelMojangBtn.disabled = true;
             loginBtn.disabled = true;
             mailInput.disabled = true;
@@ -194,7 +194,7 @@ class Login {
         let loginBtn = document.querySelector(".login-btn")
         let mojangBtn = document.querySelector('.mojang')
 
-        mojangBtn.innerHTML = "Offline"
+        mojangBtn.innerHTML = "Crack"
 
         mojangBtn.addEventListener("click", () => {
             document.querySelector(".login-card").style.display = "none";
@@ -206,7 +206,7 @@ class Login {
             document.querySelector(".login-card-mojang").style.display = "none";
         })
 
-        loginBtn.addEventListener("click", async () => {
+        loginBtn.addEventListener("click", async() => {
             cancelMojangBtn.disabled = true;
             loginBtn.disabled = true;
             mailInput.disabled = true;
